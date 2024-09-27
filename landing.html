@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://img.icons8.com/?size=40&id=23095&format=png" type="image/png">
+    <title>Tio Meio Rico.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        header {
+            background-size: cover;
+            background-image: url(https://64.media.tumblr.com/239d412c882cffb0496d51fffc9cfdac/tumblr_n1e97jM9Hk1rk1d50o1_1280.jpg);
+            background-position: center;
+            height: 30vh;
+            background-repeat: no-repeat;
+            color: rgb(197, 7, 7);
+            text-transform: uppercase;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.616);
+            z-index: 1;
+        }
+
+        h1 {
+            background: linear-gradient(to right, #833AB4, #2AB7E3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            font-size: 4vw;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        footer {
+            background-color: rgb(62, 60, 68);
+            color: aliceblue;
+            padding: 5px;
+        }
+
+        .card {
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .btn.bg-purple {
+            transition: transform 0.3s ease;
+        }
+
+        .btn.bg-purple:hover {
+            transform: scale(1.2);
+            background-color: rgba(104, 39, 162, 0.9);
+        }
+
+        body {
+            background-color: rgb(40, 39, 43);
+        }
+
+        .bg-purple {
+            background-color: rgba(128, 49, 202, 0.705);
+            color: antiquewhite;
+        }
+
+        a {
+            color: rgb(177, 95, 255);
+        }
+
+        .bg-gray {
+            background-color: rgb(40, 39, 43);
+            color: white;
+        }
+
+        .container {
+            margin-top: 2rem;
+        }
+
+        .btn.bg-gray {
+            transition: transform 0.3s ease;
+        }
+
+        .btn.bg-gray:hover {
+            transform: scale(1.1);
+            background-color: rgb(40, 39, 43);
+        }
+    </style>
+</head>
+
+<body class="text-white">
+    <header>
+        <h1> Pare de jogar no tigrinho, venha aprender a fazer dinheiro de verdade!</h1>
+    </header>
+
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-12 col-sm-12 col-md-4">
+                <div class="card mb-4 bg-purple" style="width: 100%;">
+                    <img src="https://i.pinimg.com/236x/56/bb/ce/56bbcef39a1fe2499b3b589285a68b9d.jpg"
+                        class="card-img-top img" alt="gato" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Aprenda a controlar</h5>
+                        <p class="card-text">Segure seu dinheiro. Aprenda maneiras eficazes de economizar dinheiro no
+                            seu dia a dia e evitar gastos desnecessários.</p>
+                        <a href="https://www.linkedin.com/in/victor-ara%C3%BAjo-batista-310894246/" target="_blank"
+                            class="btn bg-gray">Ver ferramentas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+                <div class="card mb-4 bg-purple" style="width: 100%;">
+                    <img src="https://i.pinimg.com/236x/e9/ee/3e/e9ee3e94aeab53f6df5ff1df47dd7af5.jpg"
+                        class="card-img-top" alt="gatos" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Aprenda a investir</h5>
+                        <p class="card-text">Deixe seu dinheiro trabalhar por você, aprenda sobre os melhores tipos de
+                            investimento e saia da poupança.</p>
+                        <a href="https://www.linkedin.com/in/victor-ara%C3%BAjo-batista-310894246/" target="_blank"
+                            class="btn bg-gray">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+                <div class="card mb-4 bg-purple" style="width: 100%;">
+                    <img src="https://i.pinimg.com/236x/60/9a/13/609a13889f9fff32f87b119c1e9f9d3c.jpg"
+                        class="card-img-top" alt="gatosss" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Consultoria Personalizada</h5>
+                        <p class="card-text">Fale com nossos especialistas para receber conselhos financeiros
+                            personalizados para sua situação.</p>
+                        <a href="https://www.linkedin.com/in/victor-ara%C3%BAjo-batista-310894246/" target="_blank"
+                            class="btn bg-gray">Assine e agende</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="container-sm p-5">
+        <h2>Cadastre-se agora mesmo!</h2><br>
+        <!--verificar depois-->
+        <form class="row g-3">
+
+            <div class="col-md-3">
+                <label for="name" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="lastName" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="idade" class="form-label">Idade</label>
+                <input type="number" class="form-control" id="idade" min="18" max="101" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="tel" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="tel" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="address" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="address" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="bairro" class="form-label">Bairro</label>
+                <input type="text" class="form-control" id="bairro" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="city" class="form-label">Cidade</label>
+                <input type="text" class="form-control" id="city" required>
+            </div>
+
+            <div class="col-md-3">
+                <label for="cep" class="form-label">CEP</label>
+                <input type="text" class="form-control" id="cep" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="pais" class="form-label">País</label>
+                <input type="text" class="form-control" id="pais" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="estado" class="form-label">Estado</label>
+                <input type="text" class="form-control" id="estado" required>
+            </div>
+
+            <div class="col-md-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="senha" class="form-label">Crie um usuário</label>
+                <input type="text" class="form-control" id="senha" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="senha" class="form-label">Crie uma senha</label>
+                <input type="password" class="form-control" id="usuario" required>
+            </div>
+
+            <div class="col-md-12">
+                <label for="nivelcurso" class="form-label">Selecione o nível do seu curso</label>
+                <select id="nivelcurso" class="form-select" required>
+                    <option selected>-</option>
+                    <option>Gato Poupador</option>
+                    <option>Gato Investidor Iniciante</option>
+                    <option>Felino Magnata</option>
+                    <option>Gato Guru das Finanças</option>
+                    <option>Gato Rei da Riqueza</option>
+                </select>
+            </div>
+
+            <div class="col-md-12">
+                <label for="pagamento" class="form-label">Forma de pagamento</label>
+                <select id="pagamento" class="form-select" required>
+                    <option selected>-</option>
+                    <option>PIX</option>
+                    <option>Boleto bancário</option>
+                    <option>Crédito (em até 8x sem juros)</option>
+                    <option>Débito</option>
+                </select>
+            </div>
+
+            <div class="col col-md-12">
+                <label for="clube" class="form-label">BÔNUS! Para qual time você torce?</label>
+                <select id="clube" class="form-select" required>
+                    <option selected>-</option>
+                    <option>VASCO DA GAMA (10% de desconto!)</option>
+                    <option>Corinthians</option>
+                    <option>Grêmio</option>
+                    <option>Flamengo (Você não é bem-vindo aqui)</option>
+                </select>
+            </div>
+
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                    <label class="form-check-label" for="gridCheck">
+                        Aceito todos os termos
+                        <a href="https://www.instagram.com/vascodagama/" target="_blank">Termos de uso</a>
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn bg-purple">Comprar</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <p>&copy; 2024 - <a href="https://github.com/victoorzx" target="_blank">Victor
+                            Araújo Batista</a>
+                </div>
+                <div class="col-12">
+                    <p>Open to work in january. <a
+                            href="https://www.linkedin.com/in/victor-ara%C3%BAjo-batista-310894246/"
+                            target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
